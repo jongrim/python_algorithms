@@ -3,3 +3,4 @@ These Python modules implement various classic algorithms and were created as le
 
 - [Insertion sort](https://github.com/jongrim/python_algorithms/blob/master/insertion_sort.py)
 - [Merge sort](https://github.com/jongrim/python_algorithms/blob/master/merge_sort.py)
+- [Quicksort](https://github.com/jongrim/python_algorithms/blob/master/quicksort.py)
