@@ -4,11 +4,11 @@ import random
 def merge_sort(unsorted_items):
     if len(unsorted_items) < 2:
         return unsorted_items
-    
+
     elif len(unsorted_items) > 2:
         merge_list_a = merge_sort(unsorted_items[:len(unsorted_items)//2])
         merge_list_b = merge_sort(unsorted_items[len(unsorted_items)//2:])
-    
+
     else:
         if unsorted_items[0] > unsorted_items[1]:
             unsorted_items[0], unsorted_items[1] = unsorted_items[1], unsorted_items[0]
@@ -34,6 +34,5 @@ def merge_sort(unsorted_items):
 
     return final_merge
 
-rand_gen = (random.randint(1, 100) for x in range(20))
-unsorted_list = [x for x in rand_gen]
+unsorted_list = [random.randint(0, 1000) for x in range(100)]
 print(merge_sort(unsorted_list))

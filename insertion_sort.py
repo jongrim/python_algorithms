@@ -19,6 +19,5 @@ def insertion_sort(unsorted_list):
 
     return unsorted_list
 
-rand_gen = (random.randint(1, 100) for x in range(20))
-unsorted_list = [x for x in rand_gen]
+unsorted_list = [random.randint(0, 100) for x in range(50)]
 print(insertion_sort(unsorted_list))
