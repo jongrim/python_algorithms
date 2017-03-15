@@ -8,3 +8,7 @@ These Python modules implement various classic algorithms and were created as le
 
 ## Search Algorithms
 - [Binary search](https://github.com/jongrim/python_algorithms/blob/master/binary_search.py)
+
+## Math Algorithms
+- Solving for square roots with the [Newton-Raphson](https://github.com/jongrim/python_algorithms/blob/master/newton_raphson.py)
+ method.
