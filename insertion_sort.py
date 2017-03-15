@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 import random
 
+
 def insertion_sort(unsorted_list):
     if len(unsorted_list) == 1:
         return unsorted_list
@@ -18,6 +19,7 @@ def insertion_sort(unsorted_list):
         j += 1
 
     return unsorted_list
+
 
 unsorted_list = [random.randint(0, 100) for x in range(50)]
 print(insertion_sort(unsorted_list))
