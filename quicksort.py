@@ -20,8 +20,6 @@ def quicksort(items):
             left = first
             right = last - 1
 
-            # pdb.set_trace()
-
             finished = False
 
             while not finished:
