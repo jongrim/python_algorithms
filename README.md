@@ -13,3 +13,7 @@ These Python modules implement various classic algorithms and were created as le
 ## Math Algorithms
 - Solving for square roots with the [Newton-Raphson](https://github.com/jongrim/python_algorithms/blob/master/newton_raphson.py)
  method.
+
+## Others
+- [Greedy selection](https://github.com/jongrim/python_algorithms/blob/master/greedy.py)
+- [Power set](https://github.com/jongrim/python_algorithms/blob/master/power_set.py)
